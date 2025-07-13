@@ -1,2 +1,19 @@
-# Booksky
- Booksky A lightweight book manager built with HTML, CSS, and JavaScript.  Features:  Add books (title, author, description)  Delete entries  Clean dark-themed UI  Mobile-responsive  Pure client-side implementation - no backend required.  Click + to add, Delete to remove.  Simple web dev project demonstrating DOM manipulation.
+# Booksky 📚
+
+A minimalist book management web app built with vanilla JavaScript.
+
+## Features
+-  Add books with title, author, and description
+-  One-click deletion
+-  Fully responsive design
+- Clean dark theme UI
+
+## Tech Stack
+- HTML5
+- CSS3 (Flexbox, Media Queries)
+- Vanilla JavaScript
+
+## Installation
+No installation required - runs directly in browser:
+
+

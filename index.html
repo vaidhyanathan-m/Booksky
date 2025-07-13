@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>
+            Booksky
+        </h1>
+    </nav>
+    <div class="container" id="bookcontainer">
+        <div class="book">
+            <h2 style="margin-bottom: 5px;">
+                Rich Dad Poor Dad
+            </h2>
+            <h3 style="margin-bottom: 5px;">
+                Ryan Gosling
+            </h3>
+            <p style="margin-bottom: 5px;">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste eaque voluptatem sapiente eius blanditiis, dignissimos repudiandae iure commodi tempora magnam, repellat, voluptatibus id similique itaque!
+            </p>
+            <button onclick="deletebook(event)" >
+                Delete
+            </button>
+        </div>
+    </div>
+    <div id="popbg"></div>
+    <div id="popup">
+        <h2 style="margin-bottom: 7px;">Add Book</h2>
+        <form>
+            <input id="bookenter" type="text" placeholder="Add Book"><br>
+            <input id="authorenter" type="text" placeholder="Add Book Author"><br>
+            <textarea id="descriptionenter" placeholder="Add Description"></textarea><br>
+            <button id="addbookbtn">Add</button>
+            <button id="cancelbookbtn">Cancel</button>
+        </form>
+    </div>
+    <div><button id="plus">+</button></div>
+</body>
+<script src="ind.js"></script>
+</html>
